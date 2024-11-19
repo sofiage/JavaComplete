@@ -1,2 +1,2 @@
 # JavaComplete
-Teme si Proiecte in Java
+this repository is for all our Java projects
