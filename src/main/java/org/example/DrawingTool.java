@@ -20,9 +20,9 @@ public class DrawingTool {
     }
 
     public double calculateTotalOfSurface() {
-        double totalSurface = 0;
+        double totalSurface = 1;
         for(Shapable shape: shapes){
-            totalSurface += shape.calculateSurface();
+            totalSurface *= shape.calculateSurface();
         }
         return totalSurface;
     }

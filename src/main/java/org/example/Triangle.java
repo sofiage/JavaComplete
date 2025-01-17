@@ -13,6 +13,7 @@ public class Triangle implements Shapable {
 
     @Override
     public double calculatePerimeter() {
+
         return x+y+x;
     }
 

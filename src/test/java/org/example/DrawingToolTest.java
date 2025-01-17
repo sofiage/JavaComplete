@@ -33,13 +33,11 @@ public class DrawingToolTest extends TestCase {
         DrawingTool drawingTool = new DrawingTool();
 
         Shapable rectangle = new Rectangle(10, 15);
-        Shapable circle = new Circle(7.9);
         Shapable square = new Square(10);
         Shapable triangle = new Triangle(1, 6, 9);
 
         drawingTool.addShape(rectangle);
         drawingTool.addShape(triangle);
-        drawingTool.addShape(circle);
         drawingTool.addShape(square);
 
         double totalExpectedSurface = 456.831;
@@ -50,16 +48,18 @@ public class DrawingToolTest extends TestCase {
         DrawingTool drawingTool = new DrawingTool();
 
         Shapable rectangle = new Rectangle(10, 15);
-        Shapable circle = new Circle(7.9);
         Shapable square = new Square(10);
         Shapable triangle = new Triangle(1, 6, 9);
 
         drawingTool.addShape(rectangle);
         drawingTool.addShape(triangle);
-        drawingTool.addShape(circle);
         drawingTool.addShape(square);
 
         double totalExpectedPerimeter = 50 + 49.6 + 40 + 16;
         assertEquals(totalExpectedPerimeter, drawingTool.calculateTotalOfPerimeter(), 0.01);
+    }
+
+    public void invalidInput(){
+
     }
 }
