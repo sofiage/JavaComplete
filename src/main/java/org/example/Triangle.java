@@ -4,22 +4,24 @@ public class Triangle implements Shapable {
     double x;
     double y;
     double z;
+    double base;
+    double height;
 
-    public Triangle(double x, double y, double z) {
+    public Triangle(double x, double y, double z, double base, double height) {
         this.x = x;
         this.y = y;
         this.z = z;
+        this.base = base;
+        this.height = height;
     }
 
     @Override
     public double calculatePerimeter() {
-
         return x+y+x;
     }
 
     @Override
     public double calculateSurface() {
-        double surface = (x+y+x)/2;
-        return Math.sqrt(surface*(surface-x)) * (surface-y)  * (surface-z);
+       return 0.5 * base * height;
     }
 }

@@ -5,12 +5,12 @@ import java.util.Set;
 
 public class DrawingTool {
     private Set<String> addedTypes = new HashSet<>();
-    private Set<Shapable> shapes = new HashSet<>();
+    Set<Shapable> shapes = new HashSet<>();
 
 
     public boolean addShape(Shapable shape) {
         if (addedTypes.contains((shape.getClass().getSimpleName()))) {
-            System.out.println("Duplicate shape type!!! " + shape.getClass().getSimpleName() + "is already added");
+            System.out.println("Duplicate shape type!!! " + shape.getClass().getSimpleName() + " is already added");
             return false;
         } else {
             addedTypes.add(shape.getClass().getSimpleName());

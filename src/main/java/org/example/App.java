@@ -13,7 +13,7 @@ public class App
         drawingTool.addShape(new Rectangle(5, 15));
         drawingTool.addShape(new Square(4));
         drawingTool.addShape((new Circle(3.8)));
-        drawingTool.addShape(new Triangle(4, 5, 10));
+        drawingTool.addShape(new Triangle(4, 5, 10, 11, 12));
 
         drawingTool.addShape(new Rectangle(10, 6)); //This is a duplicate and will print a message
 
