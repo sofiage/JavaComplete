@@ -1,7 +1,4 @@
-package org.student;
-
-import org.student.Student;
-import org.student.StudentRepository;
+package org.exception;
 
 import java.time.LocalDate;
 import java.util.Set;

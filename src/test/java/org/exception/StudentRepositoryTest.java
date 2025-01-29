@@ -1,4 +1,4 @@
-package org.student;
+package org.exception;
 
 import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
