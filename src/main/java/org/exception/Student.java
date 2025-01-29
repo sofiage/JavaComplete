@@ -1,4 +1,4 @@
-package org.student;
+package org.exception;
 
 import java.time.LocalDate;
 import java.time.Period;

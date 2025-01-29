@@ -1,6 +1,4 @@
-package org.student;
-
-import org.student.Student;
+package org.exception;
 
 import java.util.Comparator;
 import java.util.Set;
