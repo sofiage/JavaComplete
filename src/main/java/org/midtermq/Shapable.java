@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 
 public interface Shapable {
     double calculateSurface();

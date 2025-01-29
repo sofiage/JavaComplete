@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 import junit.framework.TestCase;
 import org.junit.Test;
 

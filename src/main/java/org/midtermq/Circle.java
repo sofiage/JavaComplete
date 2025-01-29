@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 
 public class Circle implements  Shapable{
     private final double radius;

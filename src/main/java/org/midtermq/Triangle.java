@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 
 public class Triangle implements Shapable {
     double x;

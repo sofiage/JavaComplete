@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
