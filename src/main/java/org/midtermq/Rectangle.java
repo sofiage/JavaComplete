@@ -1,4 +1,4 @@
-package org.example;
+package org.midtermq;
 
 public class Rectangle implements Shapable{
     public double length;
