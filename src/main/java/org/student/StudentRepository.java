@@ -1,11 +1,9 @@
-package org.exception;
-
+package org.student;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class StudentRepository {
-
     private Set<Student> students;
 
     public StudentRepository() {
@@ -72,6 +70,3 @@ public class StudentRepository {
         return students;
     }
 }
-
-
-

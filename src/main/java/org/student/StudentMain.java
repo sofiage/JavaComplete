@@ -1,13 +1,9 @@
-package org.exception;
+package org.student;
 
 import java.time.LocalDate;
 import java.util.Set;
 
-/**
- * Hello world!
- *
- */
-public class App {
+public class StudentMain {
     public static void main(String[] args) {
         //Create student repository and add students
         StudentRepository repository = new StudentRepository();
@@ -52,5 +48,3 @@ public class App {
         }
     }
 }
-
-

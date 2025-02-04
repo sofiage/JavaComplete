@@ -1,4 +1,4 @@
-package org.exception;
+package org.student;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -71,5 +71,4 @@ public class Student implements Comparable<Student> {
                 ", id='" + id + '\'' +
                 '}';
     }
-
 }
