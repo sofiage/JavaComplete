@@ -1,0 +1,15 @@
+Alina,Georgescu,1985-12-10
+Alexia,Bruma,2000-10-10
+Ioan,Benone,1985-11-01
+Georgiana,Paraschivu,2002-12-02
+Flavius,Isachi,1999-12-14
+Vlad,Voicu,1989-12-09
+Hera,Morarescu,2005-12-07
+Alexandru,Isarescu,1987-11-02
+Virgil,Bunea,1960-12-01
+Emilia,Prodan,1997-07-07
+Vera,Matei,2000-10-02
+Veronica,Popescu,1989-11-08
+Melania,Popovici,1990-09-09
+Larisa,Nadiu,1991-12-10
+Emil,Pop,1995-10-03
